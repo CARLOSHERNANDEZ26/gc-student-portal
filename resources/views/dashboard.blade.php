@@ -1,5 +1,6 @@
 {{-- resources/views/dashboard.blade.php --}}
 <x-app-layout>
+  <x-slot name="title">Dashboard — Student Management Portal</x-slot>
   <style>   
     :root {
       --avocado-green: #4B5320;
